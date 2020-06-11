@@ -17,7 +17,7 @@ class Speak  extends State<Category>{
     controller.init().then((_) {
       controller.speak(
         "This is ${widget.title}",
-        VoiceControllerOptions(speechRate: 0.9, pitch:1, delay: 0),
+        VoiceControllerOptions(speechRate: 1, pitch:1, delay: 0),
       );
     });
   }
